@@ -45,11 +45,11 @@
     </style>
 </head>
 <body>
-    <?php
-
+<?php
 echo "Bonjour Maimouna";
 echo "Bonjour Maimouna";
 ?>
+    
     <div id="calculator">
         <h2>Calculatrice</h2>
         <form method="post" action="">
