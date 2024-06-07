@@ -44,13 +44,7 @@
         }
     </style>
 </head>
-<body>
-
-<?php
-echo "Bonjour Maimouna";
-echo "Bonjour Maimouna";
-?>
-    
+<body>    
     <div id="calculator">
         <h2>Calculatrice</h2>
         <form method="post" action="">
@@ -67,6 +61,11 @@ echo "Bonjour Maimouna";
             <input type="text" id="num2" name="num2">
             <button type="submit">Calculer</button>
         </form>
+
+        <?php
+echo "Bonjour Maimouna";
+echo "Bonjour Maimouna";
+?>
 
         <?php
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
