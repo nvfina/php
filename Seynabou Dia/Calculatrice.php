@@ -45,6 +45,11 @@
     </style>
 </head>
 <body>
+    <?php
+
+echo "Bonjour Maimouna";
+
+?>
     <div id="calculator">
         <h2>Calculatrice</h2>
         <form method="post" action="">
